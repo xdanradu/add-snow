@@ -2,7 +2,7 @@
 
 Github repo: https://github.com/xdanradu/add-snow
 
-Try it on stackblitz: https://js-gyvspc.stackblitz.io
+Try it on stackblitz: https://stackblitz.com/edit/js-gyvspc?embed=1&file=index.js
 
 ## Install the library
 
