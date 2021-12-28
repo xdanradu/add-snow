@@ -1,0 +1,17 @@
+{
+  "name": "snow-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "add-snow": "^1.0.4"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
