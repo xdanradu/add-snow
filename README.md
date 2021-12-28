@@ -1,7 +1,5 @@
 # How to use it
 
-
-
 Github repo: https://github.com/xdanradu/add-snow
 
 Try it on stackblitz: https://js-gyvspc.stackblitz.io
