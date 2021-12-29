@@ -8,30 +8,18 @@ Try it on stackblitz: https://stackblitz.com/edit/js-gyvspc?embed=1&file=index.j
 
 `npm install -d add-snow`
 
-## Import it into a js app
+### Using the library in a SPA
 
-### index.html
-```html
-
-```
-
-### style.css
-```css
-body {
-  background-color: #222;
-}
-```
-
-### index.js
+#### index.js
 
 ```js
-import 'add-snow/snowflakes.css';
-import './style.css';
+import * as snow from 'add-snow';
+snow.start();
 ```
 
-## Import it in html
+### Using the library directly in HTML
 
-### index.html
+#### index.html
 
 ```html
 <html>
