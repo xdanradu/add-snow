@@ -12,20 +12,7 @@ Try it on stackblitz: https://stackblitz.com/edit/js-gyvspc?embed=1&file=index.j
 
 ### index.html
 ```html
-<div aria-hidden="true">
-  <div class="snowflake">❅</div>
-  <div class="snowflake">❆</div>
-  <div class="snowflake">❅</div>
-  <div class="snowflake">❆</div>
-  <div class="snowflake">❅</div>
-  <div class="snowflake">❆</div>
-  <div class="snowflake">❅</div>
-  <div class="snowflake">❆</div>
-  <div class="snowflake">❅</div>
-  <div class="snowflake">❆</div>
-  <div class="snowflake">❅</div>
-  <div class="snowflake">❆</div>
-</div>
+
 ```
 
 ### style.css
@@ -49,32 +36,19 @@ import './style.css';
 ```html
 <html>
 <head>
+    <style>
+        body {
+            background-color: #222;
+        }
+    </style>
+    <script src="node_modules/add-snow/dist/add-snow.js"></script>
     <script>
-    body {
-    	background-color: #222;
-    }
+        window.onload = () => {
+            snow.start();
+        };
     </script>
-    <link rel="stylesheet" href="node_modules/add-snow/snowflakes.css">
 </head>
-
-<body>
-
-<div class="snowflakes" aria-hidden="true">
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-    <div class="snowflake">❅</div>
-    <div class="snowflake">❆</div>
-</div>
-
-</body>
+<body></body>
 </html>
 ```
 

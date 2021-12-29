@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "add-snow": "^1.0.4"
+    "add-snow": "^1.0.9"
   },
   "devDependencies": {
     "live-server": "^1.2.1"

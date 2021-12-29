@@ -1,18 +1,22 @@
 {
   "name": "add-snow",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "",
-  "main": "snowflakes.css",
+  "main": "dist/add-snow.js",
   "scripts": {
+    "build": "webpack",
     "prettier": "prettier --config ./.prettierrc --list-different \"**/*{.html,.js,.json,.css}\" --write",
     "publish-to-npm": "npm publish --access public"
   },
   "devDependencies": {
-    "prettier": "^2.0.2"
+    "prettier": "^2.0.2",
+    "css-content-loader": "^1.0.0",
+    "webpack": "^2.2.0-rc.3"
   },
   "author": "",
   "license": "ISC",
   "files": [
+    "index.js",
     "snowflakes.css"
   ]
 }
