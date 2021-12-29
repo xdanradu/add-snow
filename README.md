@@ -1,14 +1,14 @@
-# How to use it
-
-Github repo: https://github.com/xdanradu/add-snow
+# add-snow library
 
 Try it on stackblitz: https://stackblitz.com/edit/js-iabuun?file=index.js
+
+Github repo: https://github.com/xdanradu/add-snow
 
 ## Install the library
 
 `npm install -d add-snow`
 
-### Using the library in a SPA
+### Using the library in a JS app
 
 #### index.js
 
@@ -17,7 +17,7 @@ import * as snow from 'add-snow';
 snow.start();
 ```
 
-### Using the library directly in HTML
+### Using the library in HTML
 
 #### index.html
 
