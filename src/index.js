@@ -18,7 +18,9 @@ function appendSnow() {
     '    <div class="snowflake">❆</div>\n' +
     '    <div class="snowflake">❅</div>\n' +
     '    <div class="snowflake">❆</div>\n' +
-    '    <div class="snowflake">❅</div>\n' + '  ' + '<div class="snowflake">❆</div>\n' +
+    '    <div class="snowflake">❅</div>\n' +
+    '  ' +
+    '<div class="snowflake">❆</div>\n' +
     '</div>';
 }
 
