@@ -1,6 +1,6 @@
 {
   "name": "add-snow",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "",
   "main": "dist/add-snow.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "files": [
-    "index.js",
-    "snowflakes.css"
+    "src/index.js",
+    "src/snowflakes.css"
   ]
 }
